@@ -1,0 +1,16 @@
+;model;model_type;class;nParams;Phase;Metric;Mean;Std
+52;cnn-normal-autoencoder-128x64_conv3x3_pool2x2_relu_sigmoid-mse;cnn;normal;187009;Test;SSIM;0.943;0.0009
+32;cnn-normal-autoencoder-64x128x32_conv3x3_pool2x2_relu_sigmoid-mse;cnn;normal;232001;Test;SSIM;0.8394;0.0026
+16;cnn-normal-autoencoder-32x64x8_conv3x3_pool2x2_relu_sigmoid-mse;cnn;normal;47441;Test;SSIM;0.8046;0.0063
+0;cnn-normal-autoencoder-16x32x2_conv3x3_pool2x2_relu_sigmoid-mse;cnn;normal;10793;Test;SSIM;0.7434;0.0091
+8;stacked-normal-autoencoder-1000x500x1000xreluxsigmoid-mse;stacked;normal;98871036;Test;SSIM;0.5401;0.0041
+24;stacked-normal-autoencoder-2000x1000x2000xreluxsigmoid-mse;stacked;normal;198676536;Test;SSIM;0.531;0.0054
+56;cnn-TB-autoencoder-128x64_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;187009;Test;SSIM;0.951;0.0006
+40;cnn-TB-autoencoder-128x256x256_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;2362881;Test;SSIM;0.8563;0.0051
+36;cnn-TB-autoencoder-64x128x32_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;232001;Test;SSIM;0.8483;0.0056
+20;cnn-TB-autoencoder-32x64x8_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;47441;Test;SSIM;0.8081;0.0029
+4;cnn-TB-autoencoder-16x32x2_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;10793;Test;SSIM;0.7243;0.0083
+48;cnn-TB-autoencoder-8x16x2_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;3113;Test;SSIM;0.6792;0.0134
+44;cnn-TB-autoencoder-8x16x2_conv3x3_pool2x2_relu_sigmoid-mse;cnn;TB;3113;Test;SSIM;0.6574;0.0276
+12;stacked-TB-autoencoder-1000x500x1000xreluxsigmoid-mse;stacked;TB;98871036;Test;SSIM;0.5222;0.0067
+28;stacked-TB-autoencoder-2000x1000x2000xreluxsigmoid-mse;stacked;TB;198676536;Test;SSIM;0.5145;0.0041
